@@ -10,7 +10,7 @@ Arquitetura modelo "1", para projetos .NET em Visual Studio 2015
 
 #### Back-End
 
-* .NET Framework 4.6
+* .NET Framework 4.5.2
 * SQL Server
 * ASP.NET Web API
 * ASP.NET Identity
