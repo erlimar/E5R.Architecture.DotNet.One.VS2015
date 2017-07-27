@@ -1,0 +1,9 @@
+{
+  "name": "e5-r.architecture-one.web-app",
+  "version": "0.0.0",
+  "description": "E5R.ArchitectureOne.WebApp",
+  "main": "app.js",
+  "author": {
+    "name": "E5R Development Team"
+  }
+}

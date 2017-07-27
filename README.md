@@ -4,9 +4,13 @@ E5R Architecture Model One, for .NET in Visual Studio 2015
 
 ## PT-BR
 
-Arquitetura modelo "1", para projetos .NET em Visual Studio 2015
+Arquitetura modelo "Um", para projetos .NET em Visual Studio 2015
 
 ### Tecnologias usadas
+
+* Visual Studio 2015
+* Node.js Tools 1.3
+* SQL Server Data Tools
 
 #### Back-End
 
@@ -15,9 +19,10 @@ Arquitetura modelo "1", para projetos .NET em Visual Studio 2015
 * ASP.NET Web API
 * ASP.NET Identity
 * EntityFramework 6
+* Dapper
+* WCF
 * Z.EntityFramework.Plus
 * Swagger
-* SSDT
 * AutoMapper
 * Owin
 * Autofac
