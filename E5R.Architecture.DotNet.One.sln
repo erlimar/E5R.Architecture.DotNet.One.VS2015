@@ -24,27 +24,27 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Documentation", "_Document
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{4CAAF1F5-FC20-47B2-9189-45404BFE87F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E5R.ArchitectureOne.Model", "src\E5R.ArchitectureOne.Model\E5R.ArchitectureOne.Model.csproj", "{B8FCC003-A542-4F4E-8C06-F803FF814BF6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E5R.ArchitectureOne.Business.Model", "src\E5R.ArchitectureOne.Business.Model\E5R.ArchitectureOne.Business.Model.csproj", "{B8FCC003-A542-4F4E-8C06-F803FF814BF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E5R.ArchitectureOne.Service", "src\E5R.ArchitectureOne.Service\E5R.ArchitectureOne.Service.csproj", "{94055F20-49E7-4C21-8727-A607E265AC5C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E5R.ArchitectureOne.Business.Service", "src\E5R.ArchitectureOne.Business.Service\E5R.ArchitectureOne.Business.Service.csproj", "{94055F20-49E7-4C21-8727-A607E265AC5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E5R.ArchitectureOne.Core", "src\E5R.ArchitectureOne.Core\E5R.ArchitectureOne.Core.csproj", "{4EEACBE6-FFE0-4EF7-8FEA-A5A40B320408}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E5R.ArchitectureOne.Business.Core", "src\E5R.ArchitectureOne.Business.Core\E5R.ArchitectureOne.Business.Core.csproj", "{4EEACBE6-FFE0-4EF7-8FEA-A5A40B320408}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E5R.ArchitectureOne.WebApi", "src\E5R.ArchitectureOne.WebApi\E5R.ArchitectureOne.WebApi.csproj", "{EB2841D7-4847-4056-94F7-C3981863B955}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E5R.ArchitectureOne.UI.API.WebApi", "src\E5R.ArchitectureOne.UI.API.WebApi\E5R.ArchitectureOne.UI.API.WebApi.csproj", "{EB2841D7-4847-4056-94F7-C3981863B955}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E5R.ArchitectureOne.WebService", "src\E5R.ArchitectureOne.WebService\E5R.ArchitectureOne.WebService.csproj", "{B524FBB7-2EEE-4791-A981-ACBCBDCE09F8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E5R.ArchitectureOne.UI.API.WebService", "src\E5R.ArchitectureOne.UI.API.WebService\E5R.ArchitectureOne.UI.API.WebService.csproj", "{B524FBB7-2EEE-4791-A981-ACBCBDCE09F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E5R.ArchitectureOne.DataStorage.Dapper", "src\E5R.ArchitectureOne.DataStorage.Dapper\E5R.ArchitectureOne.DataStorage.Dapper.csproj", "{D7B1C4EB-F9E5-4C66-9B96-CFE34B134807}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E5R.ArchitectureOne.Infrastructure.DataStorage.Dapper", "src\E5R.ArchitectureOne.Infrastructure.DataStorage.Dapper\E5R.ArchitectureOne.Infrastructure.DataStorage.Dapper.csproj", "{D7B1C4EB-F9E5-4C66-9B96-CFE34B134807}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E5R.ArchitectureOne.DataStorage.EF6", "src\E5R.ArchitectureOne.DataStorage.EF6\E5R.ArchitectureOne.DataStorage.EF6.csproj", "{8A58A54C-7993-428A-8206-D4415F04CC39}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E5R.ArchitectureOne.Infrastructure.DataStorage.EF6", "src\E5R.ArchitectureOne.Infrastructure.DataStorage.EF6\E5R.ArchitectureOne.Infrastructure.DataStorage.EF6.csproj", "{8A58A54C-7993-428A-8206-D4415F04CC39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E5R.ArchitectureOne.Core.Test", "test\E5R.ArchitectureOne.Core.Test\E5R.ArchitectureOne.Core.Test.csproj", "{E1B7DE77-A700-47D1-8375-6B22A961E1E2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E5R.ArchitectureOne.Business.Core.Test", "test\E5R.ArchitectureOne.Business.Core.Test\E5R.ArchitectureOne.Business.Core.Test.csproj", "{E1B7DE77-A700-47D1-8375-6B22A961E1E2}"
 EndProject
-Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "E5R.ArchitectureOne.WebApp", "src\E5R.ArchitectureOne.WebApp\E5R.ArchitectureOne.WebApp.njsproj", "{34010A8F-86E4-48AB-9570-E9594EF027AF}"
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "E5R.ArchitectureOne.UI.App.WebApp", "src\E5R.ArchitectureOne.UI.App.WebApp\E5R.ArchitectureOne.UI.App.WebApp.njsproj", "{34010A8F-86E4-48AB-9570-E9594EF027AF}"
 EndProject
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "E5R.ArchitectureOne.Data", "src\E5R.ArchitectureOne.Data\E5R.ArchitectureOne.Data.sqlproj", "{6A880D7C-C37A-4EF4-8C5D-1AABCCF416B7}"
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "E5R.ArchitectureOne.Infrastructure.Data.SQLServer", "src\E5R.ArchitectureOne.Infrastructure.Data.SQLServer\E5R.ArchitectureOne.Infrastructure.Data.SQLServer.sqlproj", "{6A880D7C-C37A-4EF4-8C5D-1AABCCF416B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E5R.ArchitectureOne.DataStorage.Memory", "src\E5R.ArchitectureOne.DataStorage.Memory\E5R.ArchitectureOne.DataStorage.Memory.csproj", "{1D6850DB-828A-40E9-9834-898B28D5EB1F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E5R.ArchitectureOne.Infrastructure.DataStorage.Memory", "src\E5R.ArchitectureOne.Infrastructure.DataStorage.Memory\E5R.ArchitectureOne.Infrastructure.DataStorage.Memory.csproj", "{1D6850DB-828A-40E9-9834-898B28D5EB1F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
