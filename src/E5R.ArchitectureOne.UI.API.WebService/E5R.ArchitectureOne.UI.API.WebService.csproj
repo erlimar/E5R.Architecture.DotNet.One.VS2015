@@ -65,6 +65,32 @@
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\E5R.ArchitectureOne.Business.Core\E5R.ArchitectureOne.Business.Core.csproj">
+      <Project>{4eeacbe6-ffe0-4ef7-8fea-a5a40b320408}</Project>
+      <Name>E5R.ArchitectureOne.Business.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\E5R.ArchitectureOne.Business.Model\E5R.ArchitectureOne.Business.Model.csproj">
+      <Project>{b8fcc003-a542-4f4e-8c06-f803ff814bf6}</Project>
+      <Name>E5R.ArchitectureOne.Business.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\E5R.ArchitectureOne.Business.Service\E5R.ArchitectureOne.Business.Service.csproj">
+      <Project>{94055f20-49e7-4c21-8727-a607e265ac5c}</Project>
+      <Name>E5R.ArchitectureOne.Business.Service</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\E5R.ArchitectureOne.Infrastructure.DataStorage.Dapper\E5R.ArchitectureOne.Infrastructure.DataStorage.Dapper.csproj">
+      <Project>{d7b1c4eb-f9e5-4c66-9b96-cfe34b134807}</Project>
+      <Name>E5R.ArchitectureOne.Infrastructure.DataStorage.Dapper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\E5R.ArchitectureOne.Infrastructure.DataStorage.EF6\E5R.ArchitectureOne.Infrastructure.DataStorage.EF6.csproj">
+      <Project>{8a58a54c-7993-428a-8206-d4415f04cc39}</Project>
+      <Name>E5R.ArchitectureOne.Infrastructure.DataStorage.EF6</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\E5R.ArchitectureOne.Infrastructure.DataStorage.Memory\E5R.ArchitectureOne.Infrastructure.DataStorage.Memory.csproj">
+      <Project>{1d6850db-828a-40e9-9834-898b28d5eb1f}</Project>
+      <Name>E5R.ArchitectureOne.Infrastructure.DataStorage.Memory</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <VSToolsPath Condition="'$(VSToolsPath)' == '' and '$(VisualStudioVersion)' != '' and '$(VisualStudioVersion)' != '11.0'">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

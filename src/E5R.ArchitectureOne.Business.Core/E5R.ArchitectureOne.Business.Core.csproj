@@ -42,6 +42,16 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\E5R.ArchitectureOne.Business.Model\E5R.ArchitectureOne.Business.Model.csproj">
+      <Project>{b8fcc003-a542-4f4e-8c06-f803ff814bf6}</Project>
+      <Name>E5R.ArchitectureOne.Business.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\E5R.ArchitectureOne.Business.Service\E5R.ArchitectureOne.Business.Service.csproj">
+      <Project>{94055f20-49e7-4c21-8727-a607e265ac5c}</Project>
+      <Name>E5R.ArchitectureOne.Business.Service</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
