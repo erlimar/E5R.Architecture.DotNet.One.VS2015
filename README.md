@@ -2,6 +2,14 @@
 
 E5R Architecture Model One, for .NET in Visual Studio 2015
 
+#### Architecture Layers
+
+![Architecture Layers](doc/images/architecture-layers.png)
+
+#### Architecture Components
+
+![Architecture Components](doc/images/architecture-components.png)
+
 ## PT-BR
 
 Arquitetura modelo "Um", para projetos .NET em Visual Studio 2015

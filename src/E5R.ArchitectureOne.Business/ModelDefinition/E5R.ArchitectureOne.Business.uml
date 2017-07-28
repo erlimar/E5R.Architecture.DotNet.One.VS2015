@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner"
+  dslVersion="1.0.0.0"
+  Id="3a858a00-deb2-4eec-b432-4f74b0e498ef"
+  name="E5R.ArchitectureOne.Business" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <component
+        Id="f6daf5ff-89f6-4947-9098-98e51bbb557d"
+        name="E5R.ArchitectureOne.Business.Core"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="a31cfc0c-3802-422b-8580-07d924ff3120">
+            <componentMoniker
+              Id="04f7fdbc-9c50-43ca-8784-1120b3f25cbe"
+              LastKnownName="E5R.ArchitectureOne.Business.Service"
+              LastKnownLocation="E5R.ArchitectureOne.Business.uml" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="04f7fdbc-9c50-43ca-8784-1120b3f25cbe"
+        name="E5R.ArchitectureOne.Business.Service"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <requiredInterface
+            Id="1965f15f-5b8b-4306-9ef9-2692c008a853"
+            name="Port2"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <suppliersInternal>
+              <dependency
+                Id="3f0ff2a7-e2c9-4f63-b8b6-3ab694674c7e">
+                <providedInterfaceMoniker
+                  Id="dcc5098f-cded-4ff9-a205-e089e15d1e63"
+                  LastKnownName="Port1"
+                  LastKnownLocation="E5R.ArchitectureOne.Business.uml" />
+              </dependency>
+            </suppliersInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="2b99f465-cfef-4aeb-9e43-a820611e9da7"
+                LastKnownName="Core.IBusinessContainer"
+                LastKnownLocation="E5R.ArchitectureOne.Business.uml" />
+            </type_NamedElement>
+          </requiredInterface>
+          <requiredInterface
+            Id="1675ed0c-1651-41d5-bb7f-dad396a4b08e"
+            name="Port1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <suppliersInternal>
+              <dependency
+                Id="f30a8ce1-5d1e-435f-bb6d-306010472d38">
+                <providedInterfaceMoniker
+                  Id="eda33fb5-741f-42a6-8ba6-c8c0062f76c4"
+                  LastKnownName="Port2"
+                  LastKnownLocation="E5R.ArchitectureOne.Business.uml" />
+              </dependency>
+            </suppliersInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="7d7d25a6-4264-44cd-9455-83145d379aa1"
+                LastKnownName="Core.IBusinessContext"
+                LastKnownLocation="E5R.ArchitectureOne.Business.uml" />
+            </type_NamedElement>
+          </requiredInterface>
+          <requiredInterface
+            Id="0d37e237-c786-4aeb-8605-d8658629d7e9"
+            name="Port3"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <suppliersInternal>
+              <dependency
+                Id="875c35f6-e61e-4d93-b182-58715127ad6e">
+                <providedInterfaceMoniker
+                  Id="3628497e-d2ee-4ea3-97c7-23d36c734aca"
+                  LastKnownName="Port1"
+                  LastKnownLocation="E5R.ArchitectureOne.Business.uml" />
+              </dependency>
+            </suppliersInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="8474e25c-d517-4f68-b055-1986d2a09475"
+                LastKnownName="Repository.IFeatureRepository"
+                LastKnownLocation="E5R.ArchitectureOne.Business.uml" />
+            </type_NamedElement>
+          </requiredInterface>
+        </ownedAttributesInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="f59d9caa-bff4-4a23-b5e0-82541a2d7710"
+        name="IGedService"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="2b99f465-cfef-4aeb-9e43-a820611e9da7"
+        name="Core.IBusinessContainer"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="1c0302d5-6902-447e-918f-60ff780c7da3"
+        name="E5R.ArchitectureOne.UI.API.WebApi"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <providedInterface
+            Id="dcc5098f-cded-4ff9-a205-e089e15d1e63"
+            name="Port1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="d21a4a77-e262-4e42-9b6b-368f25a04d48"
+                LastKnownName="Core.IBusinessContainer"
+                LastKnownLocation="E5R.ArchitectureOne.Business.uml" />
+            </type_NamedElement>
+          </providedInterface>
+          <providedInterface
+            Id="eda33fb5-741f-42a6-8ba6-c8c0062f76c4"
+            name="Port2"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="e3d1ced6-327b-436c-827f-7a922286016a"
+                LastKnownName="Core.IBusinessContext"
+                LastKnownLocation="E5R.ArchitectureOne.Business.uml" />
+            </type_NamedElement>
+          </providedInterface>
+        </ownedAttributesInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="d21a4a77-e262-4e42-9b6b-368f25a04d48"
+        name="Core.IBusinessContainer"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="09101b3a-9dcb-4a6a-bb83-27244d858c87"
+        name="RepositoryServices"
+        visibility="Protected"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="c78e0509-8594-4d95-a4e8-78cd47c2172a"
+        name="CoreServices"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="21ea20ae-100a-409c-98a2-853e986e1af8"
+        name="Interface1"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="7d7d25a6-4264-44cd-9455-83145d379aa1"
+        name="Core.IBusinessContext"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="8474e25c-d517-4f68-b055-1986d2a09475"
+        name="Repository.IFeatureRepository"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="1dc975e0-8c5c-4e02-a132-bb8fe9727439"
+        name="E5R.ArchitectureOne.Infrastructure.Dapper"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <providedInterface
+            Id="3628497e-d2ee-4ea3-97c7-23d36c734aca"
+            name="Port1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="603998c3-1c9a-4fed-9841-48d50ccd7331"
+                LastKnownName="Repository.IFeatureRepository"
+                LastKnownLocation="E5R.ArchitectureOne.Business.uml" />
+            </type_NamedElement>
+          </providedInterface>
+        </ownedAttributesInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="603998c3-1c9a-4fed-9841-48d50ccd7331"
+        name="Repository.IFeatureRepository"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="e3d1ced6-327b-436c-827f-7a922286016a"
+        name="Core.IBusinessContext"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

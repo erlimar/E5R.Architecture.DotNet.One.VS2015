@@ -46,6 +46,14 @@ Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "E5R.ArchitectureOne.Infrast
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E5R.ArchitectureOne.Infrastructure.DataStorage.Memory", "src\E5R.ArchitectureOne.Infrastructure.DataStorage.Memory\E5R.ArchitectureOne.Infrastructure.DataStorage.Memory.csproj", "{1D6850DB-828A-40E9-9834-898B28D5EB1F}"
 EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "E5R.ArchitectureOne.Business", "src\E5R.ArchitectureOne.Business\E5R.ArchitectureOne.Business.modelproj", "{6240A76C-8000-4804-973A-BCA2CB7EFC33}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{1CCF81F6-8F65-4573-9358-C2F0AAFBE1C7}"
+	ProjectSection(SolutionItems) = preProject
+		doc\images\architecture-components.png = doc\images\architecture-components.png
+		doc\images\architecture-layers.png = doc\images\architecture-layers.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -98,6 +106,10 @@ Global
 		{1D6850DB-828A-40E9-9834-898B28D5EB1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D6850DB-828A-40E9-9834-898B28D5EB1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D6850DB-828A-40E9-9834-898B28D5EB1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6240A76C-8000-4804-973A-BCA2CB7EFC33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6240A76C-8000-4804-973A-BCA2CB7EFC33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6240A76C-8000-4804-973A-BCA2CB7EFC33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6240A76C-8000-4804-973A-BCA2CB7EFC33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -114,5 +126,7 @@ Global
 		{34010A8F-86E4-48AB-9570-E9594EF027AF} = {ACFFAFE3-B900-4E0D-8164-6DCB606CE455}
 		{6A880D7C-C37A-4EF4-8C5D-1AABCCF416B7} = {760B1DD6-4D85-4CB2-BFA2-FEDE63F9777A}
 		{1D6850DB-828A-40E9-9834-898B28D5EB1F} = {760B1DD6-4D85-4CB2-BFA2-FEDE63F9777A}
+		{6240A76C-8000-4804-973A-BCA2CB7EFC33} = {6F59452A-1DC1-4C8F-BA1D-0ED1413D6A5E}
+		{1CCF81F6-8F65-4573-9358-C2F0AAFBE1C7} = {7651980A-2297-4D05-A093-70A2D3F5DD39}
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="7e2879ac-899f-4388-9b0b-a558dd7b26a5" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
+  <comments>
+    <comment Id="5aff4a38-217c-44e5-a3e1-ac0adbb6cde3" name="UserComment">
+      <body>User accesses
+the UI layer</body>
+      <layerElements>
+        <linkFromCommentToLayerElement>
+          <layerMoniker Id="8ceeb45e-e083-4058-810f-60c9fe230635" />
+        </linkFromCommentToLayerElement>
+      </layerElements>
+    </comment>
+  </comments>
+  <layers>
+    <layer Id="0cf889c4-4c73-43de-b3ba-77504c6b49d9" name="Business">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="01b8b643-e80a-4158-8a7e-89677829842e" direction="Bidirectional">
+          <layerMoniker Id="6505f46e-2f0b-4caf-9782-8cdc041ff8d4" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <childLayers>
+        <layer Id="65102e5e-c43a-4aff-8d7c-97f1e82b3a4f" name="Business.Core" />
+        <layer Id="6bd0ba0e-bf75-40a3-a8ff-a954547d053a" name="Business.Service" />
+        <layer Id="e89299f8-5e20-41ed-8f1c-d0b590e4e6c7" name="Business.Model" />
+      </childLayers>
+    </layer>
+    <layer Id="8ceeb45e-e083-4058-810f-60c9fe230635" name="UI">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="05f45c48-dd2b-45b8-98eb-26c270f8d41a" direction="Forward">
+          <layerMoniker Id="0cf889c4-4c73-43de-b3ba-77504c6b49d9" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="e7af68e2-7eed-4ede-be46-024d8cbf0cee" direction="Forward">
+          <layerMoniker Id="6505f46e-2f0b-4caf-9782-8cdc041ff8d4" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <childLayers>
+        <layer Id="3c8f7dab-1c2f-40e1-bdef-0286b02b476c" name="UI.API.WebService" />
+        <layer Id="992386f1-8f28-4019-8b67-cd02d88dcf2d" name="UI.App.WebApp" />
+        <layer Id="b171c249-1790-41e4-9254-c39b1836754b" name="UI.API.WebApi" />
+      </childLayers>
+    </layer>
+    <layer Id="6505f46e-2f0b-4caf-9782-8cdc041ff8d4" name="Infrastructure">
+      <childLayers>
+        <layer Id="b2872854-238f-407e-882d-37d76e3f4483" name="Infrastructure.Data.SQLServer" />
+        <layer Id="5ebcfc67-45fa-4852-8f5a-91169ba1ade8" name="Infrastructure.DataStorage.Dapper" />
+        <layer Id="7129704e-e720-4251-a796-1ffea5db787c" name="Infrastructure.DataStorage.EF6" />
+        <layer Id="086c0ba7-f90f-4026-b651-ed8f7a7d0a68" name="Infrastructure.DataStorage.Memory" />
+      </childLayers>
+    </layer>
+  </layers>
+</layerModel>
