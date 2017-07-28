@@ -18,7 +18,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{ACFFAFE3-B900-
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Documentation", "_Documentation", "{7651980A-2297-4D05-A093-70A2D3F5DD39}"
 	ProjectSection(SolutionItems) = preProject
-		doc\Features.txt = doc\Features.txt
+		doc\Features_DONE.txt = doc\Features_DONE.txt
+		doc\Features_TODO.txt = doc\Features_TODO.txt
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{4CAAF1F5-FC20-47B2-9189-45404BFE87F7}"
