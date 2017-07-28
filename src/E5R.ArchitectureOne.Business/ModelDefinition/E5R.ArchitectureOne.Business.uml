@@ -21,7 +21,7 @@
     <packageHasNamedElement>
       <component
         Id="f6daf5ff-89f6-4947-9098-98e51bbb557d"
-        name="E5R.ArchitectureOne.Business.Core"
+        name="Business.Core"
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
@@ -30,7 +30,7 @@
             Id="a31cfc0c-3802-422b-8580-07d924ff3120">
             <componentMoniker
               Id="04f7fdbc-9c50-43ca-8784-1120b3f25cbe"
-              LastKnownName="E5R.ArchitectureOne.Business.Service"
+              LastKnownName="Business.Service"
               LastKnownLocation="E5R.ArchitectureOne.Business.uml" />
           </dependency>
         </suppliersInternal>
@@ -39,7 +39,7 @@
     <packageHasNamedElement>
       <component
         Id="04f7fdbc-9c50-43ca-8784-1120b3f25cbe"
-        name="E5R.ArchitectureOne.Business.Service"
+        name="Business.Service"
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
@@ -148,7 +148,7 @@
     <packageHasNamedElement>
       <component
         Id="1c0302d5-6902-447e-918f-60ff780c7da3"
-        name="E5R.ArchitectureOne.UI.API.WebApi"
+        name="UI.API.WebApi"
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
@@ -242,7 +242,7 @@
     <packageHasNamedElement>
       <component
         Id="1dc975e0-8c5c-4e02-a132-bb8fe9727439"
-        name="E5R.ArchitectureOne.Infrastructure.Dapper"
+        name="Infrastructure.Dapper"
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">

@@ -1,33 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <componentModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" dslVersion="1.0.0.0" Id="47637dc4-2466-4139-a7f2-4a334021c247" name="ArchitectureComponent" linkedPackageId="fa09b212-fa0f-426b-babc-fcfebf03b384" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner">
-  <profileInstances>
-    <packageHasProfileInstances Id="318061fb-d642-4d07-bf1a-1e04450ce2ce">
-      <profileInstance Id="8118415f-26d4-49bd-92b6-aa5afef23018" name="StandardProfileL2">
-        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
-      </profileInstance>
-      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="bd9ce836-e74b-44d1-a00c-0a870eb9034b">
-      <profileInstance Id="e0fb87e8-a753-4057-89df-59d840ae6b3d" name="StandardProfileL3">
-        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
-      </profileInstance>
-      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
-    </packageHasProfileInstances>
-  </profileInstances>
   <packagedElements>
     <componentModelHasComponents>
-      <component Id="05541d72-ff87-4f06-8c7f-01df5cf0523f" name="E5R.ArchitectureOne.Business.Core" isAbstract="false" isLeaf="false" isActiveClass="false">
+      <component Id="05541d72-ff87-4f06-8c7f-01df5cf0523f" name="Business.Core" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="f6daf5ff-89f6-4947-9098-98e51bbb557d" />
         <suppliersInternal>
           <dependency Id="474ac360-4a99-4880-b0fc-6d02aaa2ee80">
-            <componentMoniker Id="4aa218de-ff3f-484c-bd07-e0a8077b696a" LastKnownName="E5R.ArchitectureOne.Business.Service" />
+            <componentMoniker Id="4aa218de-ff3f-484c-bd07-e0a8077b696a" LastKnownName="Business.Service" />
             <elementDefinition Id="a31cfc0c-3802-422b-8580-07d924ff3120" />
           </dependency>
         </suppliersInternal>
       </component>
     </componentModelHasComponents>
     <componentModelHasComponents>
-      <component Id="4aa218de-ff3f-484c-bd07-e0a8077b696a" name="E5R.ArchitectureOne.Business.Service" isAbstract="false" isLeaf="false" isActiveClass="false">
+      <component Id="4aa218de-ff3f-484c-bd07-e0a8077b696a" name="Business.Service" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="04f7fdbc-9c50-43ca-8784-1120b3f25cbe" />
         <ownedAttributesInternal>
           <requiredInterface Id="7b7a428f-5356-428e-8e87-beab35c6b233" name="Port2" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
@@ -75,7 +61,7 @@
       </Interface>
     </modelContainsNamedElements>
     <componentModelHasComponents>
-      <component Id="7bb32e43-8659-4727-9eef-7a73b6b28ef8" name="E5R.ArchitectureOne.UI.API.WebApi" isAbstract="false" isLeaf="false" isActiveClass="false">
+      <component Id="7bb32e43-8659-4727-9eef-7a73b6b28ef8" name="UI.API.WebApi" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="1c0302d5-6902-447e-918f-60ff780c7da3" />
         <ownedAttributesInternal>
           <providedInterface Id="ff565d5a-7efa-423c-b4b1-080788a5df83" name="Port1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
@@ -109,7 +95,7 @@
       </Interface>
     </modelContainsNamedElements>
     <componentModelHasComponents>
-      <component Id="709f8d74-dc86-4752-b811-b6869519703b" name="E5R.ArchitectureOne.Infrastructure.Dapper" isAbstract="false" isLeaf="false" isActiveClass="false">
+      <component Id="709f8d74-dc86-4752-b811-b6869519703b" name="Infrastructure.Dapper" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="1dc975e0-8c5c-4e02-a132-bb8fe9727439" />
         <ownedAttributesInternal>
           <providedInterface Id="6653aaa1-1e08-4719-bef1-9f4974006aa0" name="Port1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
@@ -134,5 +120,19 @@
   </packagedElements>
   <package Id="fa09b212-fa0f-426b-babc-fcfebf03b384" name="E5R.ArchitectureOne.Business">
     <elementDefinition Id="3a858a00-deb2-4eec-b432-4f74b0e498ef" />
+    <profileInstances>
+      <packageHasProfileInstances Id="318061fb-d642-4d07-bf1a-1e04450ce2ce">
+        <profileInstance Id="8118415f-26d4-49bd-92b6-aa5afef23018" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="bd9ce836-e74b-44d1-a00c-0a870eb9034b">
+        <profileInstance Id="e0fb87e8-a753-4057-89df-59d840ae6b3d" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
   </package>
 </componentModel>
