@@ -17,9 +17,16 @@ Arquitetura modelo "Um", para projetos .NET em Visual Studio 2015
 ### Tecnologias usadas
 
 * Visual Studio 2015
+* Noje.js 6.11.2
 * Node.js Tools 1.3
 * SQL Server Data Tools
+
+
+### Ferramentas de Produtividade
+
 * Web Extension Pack 2015
+* .ignore
+* EditorConfig
 
 #### Back-End
 
