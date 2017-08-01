@@ -1,9 +1,26 @@
 {
-  "name": "e5-r.architecture-one.web-app",
-  "version": "0.0.0",
-  "description": "E5R.ArchitectureOne.WebApp",
-  "main": "app.js",
-  "author": {
-    "name": "E5R Development Team"
-  }
+    "name": "e5-r.architecture-one.web-app",
+    "version": "0.0.0",
+    "description": "E5R.ArchitectureOne.WebApp",
+    "main": "dev-server.js",
+    "private": true,
+    "author": {
+        "name": "E5R Development Team"
+    },
+    "devDependencies": {
+        "static-server": "2.0.5",
+        "glob": "7.1.2",
+        "bower": "1.8.0",
+        "grunt": "1.0.1",
+        "grunt-contrib-clean": "1.1.0",
+        "grunt-contrib-concat": "1.0.1",
+        "grunt-contrib-copy": "1.0.0",
+        "grunt-contrib-uglify": "3.0.1",
+        "grunt-contrib-cssmin": "2.2.1",
+        "grunt-contrib-less": "1.4.1",
+        "grunt-contrib-watch": "1.0.0",
+        "grunt-bower-task": "0.5.0",
+        "grunt-angular-templates": "1.1.0",
+        "requirejs": "2.3.4"
+    }
 }
