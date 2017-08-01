@@ -19,6 +19,7 @@ Arquitetura modelo "Um", para projetos .NET em Visual Studio 2015
 * Visual Studio 2015
 * Node.js Tools 1.3
 * SQL Server Data Tools
+* Web Extension Pack 2015
 
 #### Back-End
 
