@@ -43,6 +43,7 @@
     <Compile Include="Storage\GlobalUnitOfWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Storage\IAggregated.cs" />
+    <Compile Include="Storage\IDataStorage.cs" />
     <Compile Include="Storage\IUnitOfWork.cs" />
   </ItemGroup>
   <ItemGroup>
