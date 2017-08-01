@@ -1,9 +1,33 @@
-<!DOCTYPE html>
-<html>
+﻿<!DOCTYPE html>
+<html lang="pt-br">
 <head>
+    <meta charset="utf-8" />
     <title>E5R.ArchitectureOne.UI.App.WebApp</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="lib/css/vendor.css" rel="stylesheet" />
+    <link href="app/app.css" rel="stylesheet" />
+
+    <!--[if lt IE 9]>
+      <script src="lib/js/vendor-ie8.js"></script>
+    <![endif]-->
 </head>
-<body>
-    <h1>E5R.ArchitectureOne.UI.App.WebApp</h1>
+<body data-ng-cloak>
+    <div class="container">
+        <div class="row">
+            <app-main-menu></app-main-menu>
+        </div>
+        <div class="row">
+            <div ui-view>
+                <i class="app-loading">
+                    <span>Carregando...</span>
+                </i>
+            </div>
+        </div>
+    </div>
+
+    <script data-main="main" src="lib/js/vendor.js"></script>
+    <script src="app/app.js"></script>
 </body>
 </html>

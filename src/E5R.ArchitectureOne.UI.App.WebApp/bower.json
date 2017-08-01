@@ -1,0 +1,19 @@
+{
+    "name": "e5-r.architecture-one.web-app",
+    "version": "0.0.0",
+    "authors": [ "E5R Development Team" ],
+    "private": true,
+    "dependencies": {
+        "jquery": "2.2.3",
+        "bootstrap": "3.3.7",
+        "angular": "1.6.5",
+        "angular-animate": "1.6.5",
+        "angular-touch": "1.6.5",
+        "angular-ui-router": "1.0.5",
+        "angular-bootstrap": "2.5.0",
+        "html5shiv": "3.7.3",
+        "respond": "1.4.2",
+        "requirejs": "2.3.3",
+        "font-awesome": "4.7.0"
+    }
+}

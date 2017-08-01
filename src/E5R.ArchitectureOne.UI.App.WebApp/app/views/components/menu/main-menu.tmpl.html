@@ -1,0 +1,16 @@
+﻿<div class="left side-menu">
+    <div class="sidebar-inner slimscrollleft">
+        <div id="sidebar-menu">
+            <ul>
+                <li ng-repeat="menu in $ctrl.menuList">
+                    <a class="waves-effect" ui-sref="{{ menu.rota }}" >
+                        <i class="fa fa-arrow-right"></i>
+                        <span>{{ menu.titulo }}</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>

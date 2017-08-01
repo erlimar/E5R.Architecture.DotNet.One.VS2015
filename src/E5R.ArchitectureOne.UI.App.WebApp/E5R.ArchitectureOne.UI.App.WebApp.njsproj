@@ -31,11 +31,66 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="app\config.js" />
+    <Compile Include="app\modules\boot\app.js" />
+    <Compile Include="app\modules\boot\components.js" />
+    <Compile Include="app\modules\boot\controllers.js" />
+    <Compile Include="app\modules\boot\pages.js" />
+    <Compile Include="app\modules\boot\routes.js" />
+    <Compile Include="app\modules\boot\services.js" />
+    <Compile Include="app\modules\boot\tmpl.js" />
+    <Compile Include="app\modules\components\menu\main-menu.component.js" />
+    <Compile Include="app\modules\controllers\main.controller.js" />
+    <Compile Include="app\modules\main.js" />
+    <Compile Include="app\modules\pages\atividades.page.js" />
+    <Compile Include="app\modules\pages\home.page.js" />
+    <Compile Include="app\modules\services\atividade.service.js" />
+    <Compile Include="app\modules\services\menu.service.js" />
+    <Compile Include="app\modules\util.js" />
+    <Compile Include="app\app-template\js\core.js" />
     <Compile Include="dev-server.js" />
+    <Compile Include="gruntfile.js" />
+    <Compile Include="tasks\angular-templates.js" />
+    <Compile Include="tasks\bower-install.js" />
+    <Compile Include="tasks\clean.js" />
+    <Compile Include="tasks\concat.js" />
+    <Compile Include="tasks\copy.js" />
+    <Compile Include="tasks\cssmin.js" />
+    <Compile Include="tasks\custom\requirejs-mult-task.js" />
+    <Compile Include="tasks\less.js" />
+    <Compile Include="tasks\requirejs.js" />
+    <Compile Include="tasks\uglify.js" />
+    <Compile Include="tasks\util.js" />
+    <Compile Include="tasks\watch.js" />
+    <Content Include="app\styles\app.css" />
+    <Content Include="app\app-template\css\style.css" />
+    <Content Include="app\styles\sample.less" />
+    <Content Include="app\views\components\menu\main-menu.tmpl.html" />
+    <Content Include="app\views\pages\atividades.tmpl.html" />
+    <Content Include="app\views\pages\home.tmpl.html" />
+    <Content Include="bower.json" />
     <Content Include="package.json" />
     <Content Include="wwwroot\index.html" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="app\" />
+    <Folder Include="app\modules\" />
+    <Folder Include="app\modules\boot\" />
+    <Folder Include="app\modules\components\" />
+    <Folder Include="app\modules\components\menu\" />
+    <Folder Include="app\modules\controllers\" />
+    <Folder Include="app\modules\pages\" />
+    <Folder Include="app\modules\services\" />
+    <Folder Include="app\styles\" />
+    <Folder Include="app\app-template\" />
+    <Folder Include="app\app-template\css\" />
+    <Folder Include="app\app-template\js\" />
+    <Folder Include="app\views\" />
+    <Folder Include="app\views\components\" />
+    <Folder Include="app\views\components\menu\" />
+    <Folder Include="app\views\pages\" />
+    <Folder Include="tasks\" />
+    <Folder Include="tasks\custom\" />
     <Folder Include="wwwroot\" />
     <Folder Include="typings\" />
     <Folder Include="typings\globals\" />

@@ -43,6 +43,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E5R.ArchitectureOne.Business.Core.Test", "test\E5R.ArchitectureOne.Business.Core.Test\E5R.ArchitectureOne.Business.Core.Test.csproj", "{E1B7DE77-A700-47D1-8375-6B22A961E1E2}"
 EndProject
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "E5R.ArchitectureOne.UI.App.WebApp", "src\E5R.ArchitectureOne.UI.App.WebApp\E5R.ArchitectureOne.UI.App.WebApp.njsproj", "{34010A8F-86E4-48AB-9570-E9594EF027AF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EB2841D7-4847-4056-94F7-C3981863B955} = {EB2841D7-4847-4056-94F7-C3981863B955}
+	EndProjectSection
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "E5R.ArchitectureOne.Infrastructure.Data.SQLServer", "src\E5R.ArchitectureOne.Infrastructure.Data.SQLServer\E5R.ArchitectureOne.Infrastructure.Data.SQLServer.sqlproj", "{6A880D7C-C37A-4EF4-8C5D-1AABCCF416B7}"
 EndProject
