@@ -28,13 +28,14 @@
         svcMenu.getMenu()
 
             .then(function (result) {
-                console.log('svcMenu.getMenu() #then:', result);
+                console.log('svcMenu.getMenu() #success:', result);
+                if (!result) return;
                 self.menuList = result;
                 gotoDefault();
             })
 
             .catch(function (error) {
-                console.log('svcMenu.getMenu() #catch:', error);
+                console.log('svcMenu.getMenu() #error:', error);
             });
 
         var gotoDefault = function () {

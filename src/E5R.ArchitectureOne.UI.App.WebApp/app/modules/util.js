@@ -45,28 +45,27 @@
             'delete': methodCall('DELETE')
         };
 
-        function methodCall(method){
-            return function(params) {
+        function methodCall(method) {
+            return function (params) {
                 var promise = httpBackEnd({
-                        method: method,
-                        url: _makeApiUrl(urlSufix),
-                        data: params
-                    });
-                
-                promise = promise.then(successResponse);
-                promise = promise.catch(failResponse);
+                    method: method,
+                    url: _makeApiUrl(urlSufix),
+                    data: params
+                });
 
-                return promise;
+                return promise.then(successResponse, failResponse);
+
+                function successResponse(response) {
+                    return _prepareApiReturn(response.data);
+                }
+
+                function failResponse(response) {
+                    response.data = _prepareApiReturn(response.data);
+                    throw response;
+                }
             }
         }
 
-        function successResponse(response) {
-            return _prepareApiReturn(response.data);
-        }
 
-        function failResponse(response) {
-            console.log('API call failed:', response);
-            return _prepareApiReturn(response.data);
-        }
     }
 });
