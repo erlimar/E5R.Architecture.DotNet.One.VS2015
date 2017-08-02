@@ -1,5 +1,4 @@
-﻿/* ok! */
-var util = require('./util');
+﻿var util = require('./util');
 
 var css = {
     'vendor': { files: {} },

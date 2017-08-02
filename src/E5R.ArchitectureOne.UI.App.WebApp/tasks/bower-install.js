@@ -1,5 +1,4 @@
-﻿/* ok! */
-module.exports = {
+﻿module.exports = {
     install: {
         options: {}
     }
